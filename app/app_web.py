@@ -108,9 +108,9 @@ Webcam frames → face detection → face embeddings → best-match by distance 
 webrtc_streamer(
     key="face-recognition",
     mode=WebRtcMode.SENDRECV,
-    video_transformer_factory=FaceRecTransformer,
+    video_processor_factory=FaceRecTransformer,
     media_stream_constraints={"video": True, "audio": False},
-    async_transform=True,
+    async_processing=True,
 )
 
 st.info(
