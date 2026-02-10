@@ -1,7 +1,7 @@
 import cv2
 import pickle
 import face_recognition
-import Settings
+import app.Settings as Settings
 
 KNOWN_DIR = Settings.Dir_Model
 
