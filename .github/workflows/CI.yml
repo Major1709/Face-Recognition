@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements.txt -r requirements-dev.txt
 
       - name: Train encodings
-        run: python app/Train_face_recognition.py
+        run: python -m app.Train_face_recognition
 
       - name: Ruff (lint)
         run: ruff check .
