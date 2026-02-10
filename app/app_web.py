@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import streamlit as st
 import face_recognition
-import Settings as Settings
+from app import Settings
 
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, WebRtcMode
 

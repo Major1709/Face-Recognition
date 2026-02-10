@@ -5,7 +5,7 @@ import cv2
 import streamlit as st
 from PIL import Image
 import face_recognition
-import Settings as Settings
+from app import Settings
 
 st.set_page_config(page_title="Face Recognition App", layout="centered")
 st.title("👤 Face Recognition (Image Upload)")

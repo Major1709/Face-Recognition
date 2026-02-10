@@ -1,7 +1,7 @@
 import os
 import pickle
 import face_recognition
-import Settings as Settings
+from app import Settings
 
 ENC_PATH = Settings.Dir_Model + "/model/encodings.pkl"
 IMG_ROOT = Settings.Dir #root img_path
